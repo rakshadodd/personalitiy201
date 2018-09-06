@@ -28,7 +28,7 @@ public class Personality {
 	 */
 	public String getName() {
 		// TODO: complete this method
-		return "ola";
+		return myName;
 	}
 	
 	/**
@@ -38,6 +38,11 @@ public class Personality {
 	 */
 	
 	public String getDescription() {
-		return "playful";
+		if (myName.length() <= 4) {
+			return "playful";
+		}
+		else {
+			return "argumentative";
+		}
 	}
 }
