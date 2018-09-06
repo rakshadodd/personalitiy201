@@ -10,6 +10,7 @@ public class Personality {
 	
 	public Personality(String name) {
 		// TODO: complete constructor
+		myName = name;
 	}
 	
 	/**
